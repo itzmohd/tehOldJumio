@@ -45,9 +45,9 @@ allprojects {
     }
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.1.0'
-}
+// task wrapper(type: Wrapper) {
+//     gradleVersion = '4.1.0'
+// }
 
 // Configuration properties. Set these via environment variables, build-extras.gradle, or gradle.properties.
 // Refer to: http://www.gradle.org/docs/current/userguide/tutorial_this_and_that.html
