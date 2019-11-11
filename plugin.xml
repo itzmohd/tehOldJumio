@@ -82,4 +82,6 @@
 			-dontwarn com.microblink.**
         </proguard-config>
         <source-file src="src/android/JumioMobileSDK.java" target-dir="src/com/jumio/mobilesdk" />
-		<framework src="src/andr
+		<framework src="src/android/jumio.gradle" custom="true" type="gradleReference" />
+    </platform>
+</plugin>
